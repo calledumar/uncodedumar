@@ -53,7 +53,7 @@ export default function Videos() {
               playsInline
               preload="metadata"
             >
-              <source src="./Videos/Sora_47.mp4" type="video/mp4" />
+              <source src="./Videos/Sora 47.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
@@ -89,7 +89,7 @@ export default function Videos() {
               playsInline
               preload="metadata"
             >
-              <source src="./Videos/Sora_48.mp4" type="video/mp4" />
+              <source src="./Videos/Sora 48.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
