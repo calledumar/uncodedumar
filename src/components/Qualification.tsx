@@ -23,10 +23,9 @@ export default function Qualification() {
             </h3>
 
             <p className="text-base text-gray-300 leading-relaxed max-w-3xl transition-all duration-300 group-hover:text-gray-200 group-hover:leading-loose">
-              This is a paragraph that provides detailed information about the
-              content. It flows naturally alongside the image and headings,
-              creating a balanced and visually appealing layout that works well
-              across all device sizes.
+              I'm currently pursuing a Bachelor's in Artificial Intelligence (BSAI) from NASTP Institute of Information Technology, where I’ve worked on key projects like a Library Management System in C++ using Qt, an Unreal Engine C++ FPS game MatrixAttack with AI agents and stealth mechanics, and a Virtual Reality website designed in Figma with 3D elements via Spline—blending AI, design, and development into real-world applications.
+
+
             </p>
           </div>
         </div>
@@ -54,10 +53,9 @@ export default function Qualification() {
             </h3>
 
             <p className="text-base text-gray-300 leading-relaxed max-w-3xl transition-all duration-300 group-hover:text-gray-200 group-hover:leading-loose">
-              This is a paragraph that provides detailed information about the
-              content. It flows naturally alongside the image and headings,
-              creating a balanced and visually appealing layout that works well
-              across all device sizes.
+              I completed my FSC (Pre-Medical) from the prestigious Government College University (GCU) Lahore, where I not only explored the world of science but also actively participated in co-curricular activities. The Gothic-style architecture of GCU—especially the iconic tower known as the Gothic Lady—inspired my artistic and creative pursuits, sparking a deep passion for design, aesthetics, and structural harmony that continues to influence my work in tech and digital creation today.
+
+
             </p>
           </div>
         </div>
@@ -85,10 +83,9 @@ export default function Qualification() {
             </h3>
 
             <p className="text-base text-gray-300 leading-relaxed max-w-3xl transition-all duration-300 group-hover:text-gray-200 group-hover:leading-loose">
-              This is a paragraph that provides detailed information about the
-              content. It flows naturally alongside the image and headings,
-              creating a balanced and visually appealing layout that works well
-              across all device sizes.
+              I did my schooling and matriculation from APS for Boys and Girls DHA, under the Federal Board, where I consistently maintained strong academic performance. Beyond the classroom, I was deeply involved in co-curricular activities—serving as the President of the Nature Club, where I led environmental awareness campaigns, and as the Student Editor of Kawish, our school magazine, where I honed my writing and editorial skills. These early leadership roles shaped my confidence, creativity, and love for expression, laying a strong foundation for my academic and personal growth.
+
+
             </p>
           </div>
         </div>
