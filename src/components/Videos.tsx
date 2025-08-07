@@ -4,44 +4,23 @@ import { VolumeX, Volume2 } from "lucide-react";
 export default function Videos() {
   const [video1Muted, setVideo1Muted] = useState(true);
   const [video2Muted, setVideo2Muted] = useState(true);
-  const [video1Loading, setVideo1Loading] = useState(false);
-  const [video2Loading, setVideo2Loading] = useState(false);
   const video1Ref = useRef<HTMLVideoElement | null>(null);
   const video2Ref = useRef<HTMLVideoElement | null>(null);
 
   const handleMouseEnter = (
-    videoRef: React.RefObject<HTMLVideoElement | null>,
-    setLoading: React.Dispatch<React.SetStateAction<boolean>>
+    videoRef: React.RefObject<HTMLVideoElement | null>
   ) => {
     if (videoRef.current) {
-      setLoading(true);
-      
-      // Load the video if it hasn't been loaded yet
-      if (videoRef.current.readyState === 0) {
-        videoRef.current.load();
-      }
-      
-      // Play the video
-      const playPromise = videoRef.current.play();
-      
-      // Handle any play errors
-      if (playPromise !== undefined) {
-        playPromise.catch(error => {
-          console.log('Video play failed:', error);
-          setLoading(false);
-        });
-      }
+      videoRef.current.play();
     }
   };
 
   const handleMouseLeave = (
-    videoRef: React.RefObject<HTMLVideoElement | null>,
-    setLoading: React.Dispatch<React.SetStateAction<boolean>>
+    videoRef: React.RefObject<HTMLVideoElement | null>
   ) => {
     if (videoRef.current) {
       videoRef.current.pause();
       videoRef.current.currentTime = 0;
-      setLoading(false);
     }
   };
 
@@ -63,8 +42,8 @@ export default function Videos() {
         <div className="w-[99%] mx-auto relative group">
           <div
             className="relative rounded-2xl overflow-hidden shadow-2xl cursor-pointer bg-black"
-            onMouseEnter={() => handleMouseEnter(video1Ref, setVideo1Loading)}
-            onMouseLeave={() => handleMouseLeave(video1Ref, setVideo1Loading)}
+            onMouseEnter={() => handleMouseEnter(video1Ref)}
+            onMouseLeave={() => handleMouseLeave(video1Ref)}
           >
             <video
               ref={video1Ref}
@@ -72,11 +51,9 @@ export default function Videos() {
               muted={video1Muted}
               loop
               playsInline
-              preload="none"
-              poster="./Images/12.jpg"
-              onPlaying={() => setVideo1Loading(false)}
+              preload="metadata"
             >
-              <source src="./Videos/Sora 47.mp4" type="video/mp4" />
+              <source src="./Videos/Sora_47.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
@@ -101,8 +78,8 @@ export default function Videos() {
         <div className="w-[99%] mx-auto relative group">
           <div
             className="relative rounded-2xl overflow-hidden shadow-2xl cursor-pointer bg-black"
-            onMouseEnter={() => handleMouseEnter(video2Ref, setVideo2Loading)}
-            onMouseLeave={() => handleMouseLeave(video2Ref, setVideo2Loading)}
+            onMouseEnter={() => handleMouseEnter(video2Ref)}
+            onMouseLeave={() => handleMouseLeave(video2Ref)}
           >
             <video
               ref={video2Ref}
@@ -110,11 +87,9 @@ export default function Videos() {
               muted={video2Muted}
               loop
               playsInline
-              preload="none"
-              poster="./Images/11.jpg"
-              onPlaying={() => setVideo2Loading(false)}
+              preload="metadata"
             >
-              <source src="./Videos/Sora 48.mp4" type="video/mp4" />
+              <source src="./Videos/Sora_48.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
