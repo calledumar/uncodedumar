@@ -35,7 +35,7 @@ export default function Qualification() {
  {/* Small Image */}
           <div className="flex-shrink-0 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3">
             <img
-              src="https://share.google/RqmFY1lQHq32VZ9cO"
+              src="./Images/mclogo.jpg"
               alt="Content Image"
               className="w-30 h-30 md:w-40 md:h-40 lg:w-40 lg:h-40 object-cover rounded-lg shadow-lg transition-all duration-500 group-hover:shadow-blue-500/30 group-hover:shadow-xl"
             />
@@ -52,7 +52,7 @@ export default function Qualification() {
             </h3>
 
             <p className="text-base text-gray-300 leading-relaxed max-w-3xl transition-all duration-300 group-hover:text-gray-200 group-hover:leading-loose">
-              I successfully completed the McKinsey Forward Program, a globally recognized remote-learning initiative focused on developing future-ready skills. Through this journey, I deepened my understanding of structured problem-solving, corporate communication, decision-making, emotional intelligence, and the fundamentals of AI in a business context—all through hands-on, reflective learning. View my verified digital badge on <a href="https://www.credly.com/badges/01740a80-6794-4553-b627-81d9a074ea3a"> Creadly</a>
+              I successfully completed the McKinsey Forward Program, a globally recognized remote-learning initiative focused on developing future-ready skills. Through this journey, I deepened my understanding of structured problem-solving, corporate communication, decision-making, emotional intelligence, and the fundamentals of AI in a business context—all through hands-on, reflective learning. View my verified digital badge on <a href="https://www.credly.com/badges/01740a80-6794-4553-b627-81d9a074ea3a" className=" text-stone-500"> Creadly</a>
 
 
             </p>
