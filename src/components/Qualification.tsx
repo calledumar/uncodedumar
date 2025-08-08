@@ -30,6 +30,8 @@ export default function Qualification() {
           </div>
         </div>
       </div>
+ <div className="max-w-7xl m-6 mx-auto">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 lg:gap-16 group cursor-pointer transition-all duration-500 hover:bg-gray-900/30 rounded-xl p-6 hover:shadow-2xl hover:shadow-blue-500/10">
  {/* Small Image */}
           <div className="flex-shrink-0 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3">
             <img
